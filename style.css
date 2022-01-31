@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+#left{
+    position: relative;
+    width: 7%;
+    height: 100%;
+    background-color: black;
+}
+
+img{
+    position: absolute;
+    height: 50px;
+    top: 5%;
+    left: 15%;
+}
+
+.ri-menu-5-line{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 25px;
+    color: #fff;
+}
+
+#left h6{
+    color: rgba(255, 255, 255, 0.575);
+    position: absolute;
+    font-weight: 500;
+    left: 30%;
+    bottom: 10%;
+    transform: rotate(-90deg);
+}
+
+#middle{
+    width: 93%;
+    height: 100%;
+    background-color: rgb(211, 141, 37);
+}
+
+#circle{
+    position: absolute;
+    top: 13%;
+    left: 22%;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(172, 2, 2);
+    border-radius: 50%;
+}
+
+#circle2{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: rgba(240, 23, 23, 0.767);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+#dot{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+#text{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: #fff;
+    font-size: 35px;
+}
+
+#text2{
+    position: absolute;
+    top: 57%;
+    transform-origin: center;
+    transform: rotate(90deg);
+    left: 35%;
+    font-size: 30px;
+    color: #fff;
+    z-index: 99;
+    line-height: 60px;
+}
+
+
+#para{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    width: 90px;
+    height: 100px;
+    color: #fff;
+}
+
+#para p{
+    font-weight: 100;
+    font-size: 9px;
+
+}
+
+#knife{
+    position: absolute;
+    height: 110%;
+    top: 18%;
+    left: 50%;
+    z-index: 9999;
+}
+
+#right{
+    position: relative;
+    position: absolute;
+    right: 0%;
+    width: 10%;
+    height: 80%;
+    background-color: crimson;
+}
+
+
+#search{
+    top: 5%;
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+}
+
+
+
+
+.ri-search-2-line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+}
+
+
+#scirback{
+    position: absolute;
+    left: -40px;
+    top: 25%;
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    border-top: #DC143C solid 5px;
+    
+}
+
+#cir{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(https://images.unsplash.com/photo-1528194663420-bfa489364cb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1370&q=80);
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+
+#scir{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 5%;
+    right: 5%;
+    background-color: #fff;
+}
+
+#scir h3{
+    position: absolute;
+    font-size: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #DC143C;
+}
+
+#rtext{
+    position: absolute;
+    color: #fff;
+    font-size: 7px;
+    top: 31%;
+    right: 25%;
+    
+}
+
+#rtext h1{
+    font-weight: 500;
+}
+
+#rtext1{
+    position: absolute;
+    top: 47%;
+}
+
+.two{
+    position: absolute;
+    left: -8px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.two h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#rtext1 h1{
+    position: absolute;
+    font-size: 13px;
+    margin-left: 60px;
+    color: rgba(255, 255, 255, 0.514);
+    font-weight: 500;
+
+}
+
+#rtext2{
+    position: absolute;
+    top: 63%;
+}
+
+#rtext2 h1{
+    position: absolute;
+    font-size: 13px;
+    margin-left: 56px;
+    color: rgba(255, 255, 255, 0.534);
+    font-weight: 500;
+
+}
+
+#rtext3{
+    position: absolute;
+    top: 80%;
+}
+
+#rtext3 h1{
+    position: absolute;
+    font-size: 13px;
+    margin-left: 65px;
+    color: rgba(255, 255, 255, 0.658);
+    font-weight: 500;
+
+}
+
+#bottom{
+    position: absolute;
+    bottom: 0%;
+    width: 93%;
+    height: 20%;
+    background-image: url(https://images.unsplash.com/photo-1580922110301-a666f6745565?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
